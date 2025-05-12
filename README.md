@@ -27,31 +27,32 @@ The **Customer Purchase Predictor** project aims to help businesses understand c
    ```bash
    git clone https://github.com/yourusername/customer-purchase-predictor.git
    cd customer-purchase-predictor
-2. Set Up Your Environment by creating a virtual environment
+2. Set Up Your Environment by creating a virtual environment:
    ```bash
    python -m venv venv
-3. Activate the environment
+3. Activate the environment:
 
   ### On Windows:
-     venv\Scripts\activate #or
+     venv\Scripts\activate
+     #or 
      .\venv\Scripts\activate 
   ### On macOS/Linux:
-     ```bash
      source venv/bin/activate
 
-4. Install Required Packages
+4. Install Required Packages:
      ```bash
-     pip install streamlit numpy #or
+     pip install streamlit numpy 
+     #or
      pip install -r requirements.txt
   
-5.📁 Create Your Project Folder (if not done yet)
+5.📁 Create Your Project Folder (if not done yet):
   -  customer_purchase_predictor/
   -  ├── app/
-  -  │   ├── model_utils.py
-  -  │   └── predict_app.py
+  -  │     ├── model_utils.py
+  -  │     └── predict_app.py
   -  ├── model/
-  -  │   ├── theta.npy
-  -  │   └── X_mean_std.npy
+  -  │       ├── theta.npy
+  -  │       └── X_mean_std.npy
   -  ├── requirements.txt
 6. Run Your Streamlit App (make sure you're in the project root):
      ```bash

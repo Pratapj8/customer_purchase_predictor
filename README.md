@@ -33,7 +33,6 @@ The **Customer Purchase Predictor** project aims to help businesses understand c
 3. Activate the environment
 
   ### On Windows:
-     ```bash
      venv\Scripts\activate #or
      .\venv\Scripts\activate 
   ### On macOS/Linux:
@@ -54,7 +53,7 @@ The **Customer Purchase Predictor** project aims to help businesses understand c
   -  │   ├── theta.npy
   -  │   └── X_mean_std.npy
   -  ├── requirements.txt
-6. Run Your Streamlit App ,make sure you're in the project root:
+6. Run Your Streamlit App (make sure you're in the project root):
      ```bash
      cd customer_purchase_predictor
      streamlit run app/predict_app.py
